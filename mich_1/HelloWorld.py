@@ -27,8 +27,8 @@ print("Hello World!")
 users_name = input("What is your name?")
 print("Hello there " + users_name)
 
-# I wonder how old they are?
-some_number_string = input("Give me a number")
+# I wonder if we could do some maths
+some_number_input = input("Give me a number: ")
 
 # Hang on: what the fuck are we doing here with int(some_number_string)?
 
@@ -46,11 +46,11 @@ some_number_string = input("Give me a number")
 # Luckily unlike mixing drinks, you can magic the types into each other
 #  so long as it's a valid conversion. We can change 8782 (int) to "8782" (string)
 #  or we can do "9312" (string) to 9312 (int). But not "8s7sabcs" (string) to an int
-some_number = int(some_number_string)
+some_number = int(some_number_input)
 added_ten = 10 + some_number
 
 # You should know what's going on here now,
 added_ten_string = str(added_ten)
 
 # and here...
-print("So at some point this year you're " + added_ten_string + "!")
+print("Look I know that " + some_number_input + " + 10 is "+ added_ten_string +"!")

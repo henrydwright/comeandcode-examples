@@ -18,7 +18,7 @@ print("Hello World!")
 # But that's not very interesting...
 # Let's get the user's name in there too!
 
-# We declare a variable to store shit in and give it a name "user_name"
+# We declare a variable to store stuff in and give it a name "user_name"
 # They're called variables because, they, well vary. They can change
 # and that's why they're so useful. Think of them like boxes to put
 # things to remember in.
@@ -30,7 +30,7 @@ print("Hello there " + users_name)
 # I wonder if we could do some maths
 some_number_input = input("Give me a number: ")
 
-# Hang on: what the fuck are we doing here with int(some_number_string)?
+# Hang on: what on earth are we doing here with int(some_number_string)?
 
 # So we need a brief introduction into types. Not romantic ones,
 #  but computationally. Arguably more exciting? Definitely more exciting!
